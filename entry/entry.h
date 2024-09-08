@@ -1,7 +1,7 @@
 #ifndef __ENTRY_ENTRY_H__
 #define __ENTRY_ENTRY_H__
 
-#include <node/node_api.h>
+#include <node_api.h>
 
 #ifdef __cplusplus
 extern "C" {

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/akshayganeshen/napi-go"
-	"github.com/akshayganeshen/napi-go/entry"
-	"github.com/akshayganeshen/napi-go/js"
+	"github.com/xymeng16/ohos-go"
+	"github.com/xymeng16/ohos-go/entry"
+	"github.com/xymeng16/ohos-go/js"
 )
 
 func init() {

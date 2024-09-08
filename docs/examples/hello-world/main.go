@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/akshayganeshen/napi-go"
-	"github.com/akshayganeshen/napi-go/entry"
+	"github.com/xymeng16/ohos-go"
+	"github.com/xymeng16/ohos-go/entry"
 )
 
 func init() {

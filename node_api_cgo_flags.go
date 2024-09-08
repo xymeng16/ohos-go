@@ -5,8 +5,8 @@ package napi
 #cgo CFLAGS: -D_DEBUG
 #cgo CFLAGS: -DV8_ENABLE_CHECKS
 #cgo CFLAGS: -DNAPI_EXPERIMENTAL
-#cgo CFLAGS: -I/usr/local/include/node
-#cgo CXXFLAGS: -std=c++11
+#cgo CFLAGS: -I$OHOS_NDK_HOME/native/sysroot/usr/include
+#cgo CFLAGS: -Wno-error
 
 #cgo darwin LDFLAGS: -Wl,-undefined,dynamic_lookup
 #cgo darwin LDFLAGS: -Wl,-no_pie
@@ -15,7 +15,6 @@ package napi
 
 #cgo linux LDFLAGS: -Wl,-unresolved-symbols=ignore-all
 
-#cgo LDFLAGS: -L${SRCDIR}
-#cgo LDFLAGS: -stdlib=libc++
+#cgo LDFLAGS: -L$OHOS_NDK_HOME/native/sysroot/usr/lib/aarch64-linux-ohos
 */
 import "C"

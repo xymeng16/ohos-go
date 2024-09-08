@@ -8,7 +8,7 @@ package entry
 import "C"
 
 import (
-	"github.com/akshayganeshen/napi-go"
+	"github.com/xymeng16/ohos-go"
 )
 
 //export InitializeModule

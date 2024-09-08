@@ -1,3 +1,3 @@
-module github.com/akshayganeshen/napi-go
+module github.com/xymeng16/ohos-go
 
 go 1.18

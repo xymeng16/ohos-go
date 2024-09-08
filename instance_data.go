@@ -2,7 +2,7 @@ package napi
 
 /*
 #include <stdlib.h>
-#include <node/node_api.h>
+#include <node_api.h>
 
 extern void DeleteInstanceData(
 	napi_env env,
